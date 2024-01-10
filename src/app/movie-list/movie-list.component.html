@@ -1,1 +1,4 @@
-<p>movie-list works!</p>
+<h3>Movie list:</h3>
+<div *ngFor="let movie of movies" (click)="alerta(movie)" class="movie">
+    {{movie.Title}} {{movie.Year}}
+</div>
