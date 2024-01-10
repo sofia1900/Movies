@@ -4,9 +4,9 @@
   background-color: aliceblue;
   font-size: 20px;
 }
-.contendor{
-  margin-left: 50px;;
-}
 .title{
   font-size: 30px;
+}
+#contenedor{
+  margin: 50px;
 }

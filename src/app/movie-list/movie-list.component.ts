@@ -10,6 +10,7 @@ import {Movie} from "../Shared/Movie";
 export class MovieListComponent implements OnInit{
 
   movies : Movie[] = [];
+  movieSelect : Movie;
   constructor(private movieService : MovieService) {}
 
   ngOnInit(){
@@ -19,7 +20,7 @@ export class MovieListComponent implements OnInit{
       )
   }
 
-  alerta (movie : Movie) {
-    alert(`Movie: ${movie.Title}`)
+  select (movie : Movie) {
+    this.movieSelect = movie
   }
 }
