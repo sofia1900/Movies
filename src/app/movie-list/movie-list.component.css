@@ -1,5 +1,12 @@
 .movie{
   margin: 5px;
   margin-left: 20px;
-  background-color: antiquewhite;
+  background-color: aliceblue;
+  font-size: 20px;
+}
+.contendor{
+  margin-left: 50px;;
+}
+.title{
+  font-size: 30px;
 }

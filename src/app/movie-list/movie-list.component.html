@@ -1,4 +1,6 @@
-<h3>Movie list:</h3>
-<div *ngFor="let movie of movies" (click)="alerta(movie)" class="movie">
-    {{movie.Title}} {{movie.Year}}
+<div class="contendor">
+  <p class="title">Movie list:</p>
+  <div *ngFor="let movie of movies" (click)="alerta(movie)" class="movie">
+      {{movie.Title}} {{movie.Year}}
+  </div>
 </div>
