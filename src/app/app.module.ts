@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { PosterComponent } from './poster/poster.component';
 import { PlotComponent } from './plot/plot.component';
 import {NgOptimizedImage} from "@angular/common";
+import { DetailMovieComponent } from './detail-movie/detail-movie.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import {NgOptimizedImage} from "@angular/common";
     MovieListComponent,
     HeaderComponent,
     PosterComponent,
-    PlotComponent
+    PlotComponent,
+    DetailMovieComponent
   ],
   imports: [
     BrowserModule,

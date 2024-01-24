@@ -2,17 +2,9 @@
   <div class="row">
     <div class="col">
       <p class="title">Movie list:</p>
-      <div *ngFor="let movie of movies" (click)="select(movie)" class="movie">
+      <div *ngFor="let movie of movies" [routerLink]="['detail/', movie.Title]" class="movie">
         {{movie.Title}} {{movie.Year}}
       </div>
     </div>
-    <div class="col">
-      <app-poster [img]="movieSelect"></app-poster>
-    </div>
-  </div>
-  <div class="row">
-    <app-plot [movie]="movieSelect"></app-plot>
   </div>
 </div>
-
-
